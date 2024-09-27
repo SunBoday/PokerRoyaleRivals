@@ -41,7 +41,7 @@ workflows:
         issuer_id: $APP_STORE_CONNECT_ISSUER_ID # Alphanumeric value that identifies who created the API key
       email:
         recipients:
-          - "nguyenthithupham3946@gmail.com"
+          - "Fahimmazhar33@outlook.com"
         notify:
           success: true
           failure: true
