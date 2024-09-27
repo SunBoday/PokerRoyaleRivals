@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44B27850AA5C593ED8275DF0 /* Pods_PokerRoyaleRivals.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17F541A0FC175F260DBBE8D /* Pods_PokerRoyaleRivals.framework */; };
+		E9E6D1702CA63DDB00628243 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E6D16F2CA63DDB00628243 /* AppDelegate.swift */; };
+		E9E6D1722CA63DDC00628243 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E6D1712CA63DDC00628243 /* SceneDelegate.swift */; };
+		E9E6D1742CA63DDC00628243 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E6D1732CA63DDC00628243 /* ViewController.swift */; };
+		E9E6D1772CA63DDC00628243 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9E6D1752CA63DDC00628243 /* Main.storyboard */; };
+		E9E6D1792CA63DDF00628243 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9E6D1782CA63DDF00628243 /* Assets.xcassets */; };
+		E9E6D17C2CA63DDF00628243 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9E6D17A2CA63DDF00628243 /* LaunchScreen.storyboard */; };
+		E9E6D1872CA63DDF00628243 /* PokerRoyaleRivalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E6D1862CA63DDF00628243 /* PokerRoyaleRivalsTests.swift */; };
+		E9E6D1912CA63DDF00628243 /* PokerRoyaleRivalsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E6D1902CA63DDF00628243 /* PokerRoyaleRivalsUITests.swift */; };
+		E9E6D1932CA63DE000628243 /* PokerRoyaleRivalsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E6D1922CA63DE000628243 /* PokerRoyaleRivalsUITestsLaunchTests.swift */; };
+		E9E6D1A02CA63F4300628243 /* PPRCardBattleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E6D19F2CA63F4300628243 /* PPRCardBattleVC.swift */; };
+		E9E6D1A22CA63F5B00628243 /* PPRSettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E6D1A12CA63F5B00628243 /* PPRSettingVC.swift */; };
+		E9E6D1A42CA63F7300628243 /* PPRAboutUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E6D1A32CA63F7300628243 /* PPRAboutUsVC.swift */; };
+		E9E6D1A62CA63FA800628243 /* PPRFeedbackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E6D1A52CA63FA800628243 /* PPRFeedbackVC.swift */; };
+		E9E6D1A82CA63FBE00628243 /* PPRPrivacyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E6D1A72CA63FBE00628243 /* PPRPrivacyVC.swift */; };
+		E9E6D1AA2CA63FD600628243 /* PPRHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E6D1A92CA63FD600628243 /* PPRHomeVC.swift */; };
+		E9E6D1AC2CA63FEF00628243 /* PPRExtesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E6D1AB2CA63FEF00628243 /* PPRExtesion.swift */; };
+		E9E6D1AE2CA6400B00628243 /* PPRGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E6D1AD2CA6400B00628243 /* PPRGameVC.swift */; };
+		E9E6D1B32CA6402D00628243 /* ic_about.gif in Resources */ = {isa = PBXBuildFile; fileRef = E9E6D1AF2CA6402C00628243 /* ic_about.gif */; };
+		E9E6D1B42CA6402D00628243 /* ic_feedback.gif in Resources */ = {isa = PBXBuildFile; fileRef = E9E6D1B02CA6402C00628243 /* ic_feedback.gif */; };
+		E9E6D1B52CA6402D00628243 /* ic_privacy.gif in Resources */ = {isa = PBXBuildFile; fileRef = E9E6D1B12CA6402C00628243 /* ic_privacy.gif */; };
+		E9E6D1B62CA6402D00628243 /* back.gif in Resources */ = {isa = PBXBuildFile; fileRef = E9E6D1B22CA6402C00628243 /* back.gif */; };
+		E9E6D1B82CA6417700628243 /* settings.gif in Resources */ = {isa = PBXBuildFile; fileRef = E9E6D1B72CA6417700628243 /* settings.gif */; };
+		E9E6D21E2CA67ECC00628243 /* PPRRoyReaManage.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E6D21D2CA67ECC00628243 /* PPRRoyReaManage.m */; };
+		E9E6D2202CA67F6000628243 /* PNRNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E6D21F2CA67F6000628243 /* PNRNavViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9E6D1832CA63DDF00628243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9E6D1642CA63DDB00628243 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9E6D16B2CA63DDB00628243;
+			remoteInfo = PokerRoyaleRivals;
+		};
+		E9E6D18D2CA63DDF00628243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9E6D1642CA63DDB00628243 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9E6D16B2CA63DDB00628243;
+			remoteInfo = PokerRoyaleRivals;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3ECC1850353DA561525F2864 /* Pods-PokerRoyaleRivals.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokerRoyaleRivals.debug.xcconfig"; path = "Target Support Files/Pods-PokerRoyaleRivals/Pods-PokerRoyaleRivals.debug.xcconfig"; sourceTree = "<group>"; };
+		57AD72C1706B4619F79245EC /* Pods-PokerRoyaleRivals.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokerRoyaleRivals.release.xcconfig"; path = "Target Support Files/Pods-PokerRoyaleRivals/Pods-PokerRoyaleRivals.release.xcconfig"; sourceTree = "<group>"; };
+		A17F541A0FC175F260DBBE8D /* Pods_PokerRoyaleRivals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokerRoyaleRivals.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9E6D16C2CA63DDB00628243 /* PokerRoyaleRivals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokerRoyaleRivals.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9E6D16F2CA63DDB00628243 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E9E6D1712CA63DDC00628243 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E9E6D1732CA63DDC00628243 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E9E6D1762CA63DDC00628243 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9E6D1782CA63DDF00628243 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9E6D17B2CA63DDF00628243 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E9E6D17D2CA63DDF00628243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9E6D1822CA63DDF00628243 /* PokerRoyaleRivalsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokerRoyaleRivalsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9E6D1862CA63DDF00628243 /* PokerRoyaleRivalsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerRoyaleRivalsTests.swift; sourceTree = "<group>"; };
+		E9E6D18C2CA63DDF00628243 /* PokerRoyaleRivalsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokerRoyaleRivalsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9E6D1902CA63DDF00628243 /* PokerRoyaleRivalsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerRoyaleRivalsUITests.swift; sourceTree = "<group>"; };
+		E9E6D1922CA63DE000628243 /* PokerRoyaleRivalsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerRoyaleRivalsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E9E6D19F2CA63F4300628243 /* PPRCardBattleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPRCardBattleVC.swift; sourceTree = "<group>"; };
+		E9E6D1A12CA63F5B00628243 /* PPRSettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPRSettingVC.swift; sourceTree = "<group>"; };
+		E9E6D1A32CA63F7300628243 /* PPRAboutUsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPRAboutUsVC.swift; sourceTree = "<group>"; };
+		E9E6D1A52CA63FA800628243 /* PPRFeedbackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPRFeedbackVC.swift; sourceTree = "<group>"; };
+		E9E6D1A72CA63FBE00628243 /* PPRPrivacyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPRPrivacyVC.swift; sourceTree = "<group>"; };
+		E9E6D1A92CA63FD600628243 /* PPRHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPRHomeVC.swift; sourceTree = "<group>"; };
+		E9E6D1AB2CA63FEF00628243 /* PPRExtesion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPRExtesion.swift; sourceTree = "<group>"; };
+		E9E6D1AD2CA6400B00628243 /* PPRGameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPRGameVC.swift; sourceTree = "<group>"; };
+		E9E6D1AF2CA6402C00628243 /* ic_about.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ic_about.gif; sourceTree = "<group>"; };
+		E9E6D1B02CA6402C00628243 /* ic_feedback.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ic_feedback.gif; sourceTree = "<group>"; };
+		E9E6D1B12CA6402C00628243 /* ic_privacy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ic_privacy.gif; sourceTree = "<group>"; };
+		E9E6D1B22CA6402C00628243 /* back.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = back.gif; sourceTree = "<group>"; };
+		E9E6D1B72CA6417700628243 /* settings.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = settings.gif; sourceTree = "<group>"; };
+		E9E6D21B2CA67ECC00628243 /* PokerRoyaleRivals-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PokerRoyaleRivals-Bridging-Header.h"; sourceTree = "<group>"; };
+		E9E6D21C2CA67ECC00628243 /* PPRRoyReaManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPRRoyReaManage.h; sourceTree = "<group>"; };
+		E9E6D21D2CA67ECC00628243 /* PPRRoyReaManage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPRRoyReaManage.m; sourceTree = "<group>"; };
+		E9E6D21F2CA67F6000628243 /* PNRNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PNRNavViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9E6D1692CA63DDB00628243 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44B27850AA5C593ED8275DF0 /* Pods_PokerRoyaleRivals.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9E6D17F2CA63DDF00628243 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9E6D1892CA63DDF00628243 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A0B478254A620F7BA962528 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A17F541A0FC175F260DBBE8D /* Pods_PokerRoyaleRivals.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9B0A036B7CA8BDC63C3CC85 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3ECC1850353DA561525F2864 /* Pods-PokerRoyaleRivals.debug.xcconfig */,
+				57AD72C1706B4619F79245EC /* Pods-PokerRoyaleRivals.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E9E6D1632CA63DDB00628243 = {
+			isa = PBXGroup;
+			children = (
+				E9E6D16E2CA63DDB00628243 /* PokerRoyaleRivals */,
+				E9E6D1852CA63DDF00628243 /* PokerRoyaleRivalsTests */,
+				E9E6D18F2CA63DDF00628243 /* PokerRoyaleRivalsUITests */,
+				E9E6D16D2CA63DDB00628243 /* Products */,
+				B9B0A036B7CA8BDC63C3CC85 /* Pods */,
+				4A0B478254A620F7BA962528 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E9E6D16D2CA63DDB00628243 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9E6D16C2CA63DDB00628243 /* PokerRoyaleRivals.app */,
+				E9E6D1822CA63DDF00628243 /* PokerRoyaleRivalsTests.xctest */,
+				E9E6D18C2CA63DDF00628243 /* PokerRoyaleRivalsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9E6D16E2CA63DDB00628243 /* PokerRoyaleRivals */ = {
+			isa = PBXGroup;
+			children = (
+				E9E6D16F2CA63DDB00628243 /* AppDelegate.swift */,
+				E9E6D1712CA63DDC00628243 /* SceneDelegate.swift */,
+				E9E6D1732CA63DDC00628243 /* ViewController.swift */,
+				E9E6D19F2CA63F4300628243 /* PPRCardBattleVC.swift */,
+				E9E6D1A12CA63F5B00628243 /* PPRSettingVC.swift */,
+				E9E6D1A32CA63F7300628243 /* PPRAboutUsVC.swift */,
+				E9E6D1A52CA63FA800628243 /* PPRFeedbackVC.swift */,
+				E9E6D1A72CA63FBE00628243 /* PPRPrivacyVC.swift */,
+				E9E6D1A92CA63FD600628243 /* PPRHomeVC.swift */,
+				E9E6D1AB2CA63FEF00628243 /* PPRExtesion.swift */,
+				E9E6D1AD2CA6400B00628243 /* PPRGameVC.swift */,
+				E9E6D21F2CA67F6000628243 /* PNRNavViewController.swift */,
+				E9E6D21C2CA67ECC00628243 /* PPRRoyReaManage.h */,
+				E9E6D21D2CA67ECC00628243 /* PPRRoyReaManage.m */,
+				E9E6D1B22CA6402C00628243 /* back.gif */,
+				E9E6D1AF2CA6402C00628243 /* ic_about.gif */,
+				E9E6D1B02CA6402C00628243 /* ic_feedback.gif */,
+				E9E6D1B12CA6402C00628243 /* ic_privacy.gif */,
+				E9E6D1B72CA6417700628243 /* settings.gif */,
+				E9E6D1752CA63DDC00628243 /* Main.storyboard */,
+				E9E6D1782CA63DDF00628243 /* Assets.xcassets */,
+				E9E6D17A2CA63DDF00628243 /* LaunchScreen.storyboard */,
+				E9E6D17D2CA63DDF00628243 /* Info.plist */,
+				E9E6D21B2CA67ECC00628243 /* PokerRoyaleRivals-Bridging-Header.h */,
+			);
+			path = PokerRoyaleRivals;
+			sourceTree = "<group>";
+		};
+		E9E6D1852CA63DDF00628243 /* PokerRoyaleRivalsTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9E6D1862CA63DDF00628243 /* PokerRoyaleRivalsTests.swift */,
+			);
+			path = PokerRoyaleRivalsTests;
+			sourceTree = "<group>";
+		};
+		E9E6D18F2CA63DDF00628243 /* PokerRoyaleRivalsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E9E6D1902CA63DDF00628243 /* PokerRoyaleRivalsUITests.swift */,
+				E9E6D1922CA63DE000628243 /* PokerRoyaleRivalsUITestsLaunchTests.swift */,
+			);
+			path = PokerRoyaleRivalsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9E6D16B2CA63DDB00628243 /* PokerRoyaleRivals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9E6D1962CA63DE000628243 /* Build configuration list for PBXNativeTarget "PokerRoyaleRivals" */;
+			buildPhases = (
+				DF6E070B2615F49F095D04B3 /* [CP] Check Pods Manifest.lock */,
+				E9E6D1682CA63DDB00628243 /* Sources */,
+				E9E6D1692CA63DDB00628243 /* Frameworks */,
+				E9E6D16A2CA63DDB00628243 /* Resources */,
+				0E6409766B6D17625D41A43C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PokerRoyaleRivals;
+			productName = PokerRoyaleRivals;
+			productReference = E9E6D16C2CA63DDB00628243 /* PokerRoyaleRivals.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9E6D1812CA63DDF00628243 /* PokerRoyaleRivalsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9E6D1992CA63DE000628243 /* Build configuration list for PBXNativeTarget "PokerRoyaleRivalsTests" */;
+			buildPhases = (
+				E9E6D17E2CA63DDF00628243 /* Sources */,
+				E9E6D17F2CA63DDF00628243 /* Frameworks */,
+				E9E6D1802CA63DDF00628243 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9E6D1842CA63DDF00628243 /* PBXTargetDependency */,
+			);
+			name = PokerRoyaleRivalsTests;
+			productName = PokerRoyaleRivalsTests;
+			productReference = E9E6D1822CA63DDF00628243 /* PokerRoyaleRivalsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9E6D18B2CA63DDF00628243 /* PokerRoyaleRivalsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9E6D19C2CA63DE000628243 /* Build configuration list for PBXNativeTarget "PokerRoyaleRivalsUITests" */;
+			buildPhases = (
+				E9E6D1882CA63DDF00628243 /* Sources */,
+				E9E6D1892CA63DDF00628243 /* Frameworks */,
+				E9E6D18A2CA63DDF00628243 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9E6D18E2CA63DDF00628243 /* PBXTargetDependency */,
+			);
+			name = PokerRoyaleRivalsUITests;
+			productName = PokerRoyaleRivalsUITests;
+			productReference = E9E6D18C2CA63DDF00628243 /* PokerRoyaleRivalsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9E6D1642CA63DDB00628243 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E9E6D16B2CA63DDB00628243 = {
+						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
+					};
+					E9E6D1812CA63DDF00628243 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E9E6D16B2CA63DDB00628243;
+					};
+					E9E6D18B2CA63DDF00628243 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E9E6D16B2CA63DDB00628243;
+					};
+				};
+			};
+			buildConfigurationList = E9E6D1672CA63DDB00628243 /* Build configuration list for PBXProject "PokerRoyaleRivals" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9E6D1632CA63DDB00628243;
+			productRefGroup = E9E6D16D2CA63DDB00628243 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9E6D16B2CA63DDB00628243 /* PokerRoyaleRivals */,
+				E9E6D1812CA63DDF00628243 /* PokerRoyaleRivalsTests */,
+				E9E6D18B2CA63DDF00628243 /* PokerRoyaleRivalsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9E6D16A2CA63DDB00628243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E6D1B42CA6402D00628243 /* ic_feedback.gif in Resources */,
+				E9E6D1B82CA6417700628243 /* settings.gif in Resources */,
+				E9E6D17C2CA63DDF00628243 /* LaunchScreen.storyboard in Resources */,
+				E9E6D1B62CA6402D00628243 /* back.gif in Resources */,
+				E9E6D1792CA63DDF00628243 /* Assets.xcassets in Resources */,
+				E9E6D1B52CA6402D00628243 /* ic_privacy.gif in Resources */,
+				E9E6D1B32CA6402D00628243 /* ic_about.gif in Resources */,
+				E9E6D1772CA63DDC00628243 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9E6D1802CA63DDF00628243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9E6D18A2CA63DDF00628243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E6409766B6D17625D41A43C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PokerRoyaleRivals/Pods-PokerRoyaleRivals-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PokerRoyaleRivals/Pods-PokerRoyaleRivals-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PokerRoyaleRivals/Pods-PokerRoyaleRivals-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF6E070B2615F49F095D04B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PokerRoyaleRivals-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9E6D1682CA63DDB00628243 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E6D1AA2CA63FD600628243 /* PPRHomeVC.swift in Sources */,
+				E9E6D1A22CA63F5B00628243 /* PPRSettingVC.swift in Sources */,
+				E9E6D2202CA67F6000628243 /* PNRNavViewController.swift in Sources */,
+				E9E6D1A62CA63FA800628243 /* PPRFeedbackVC.swift in Sources */,
+				E9E6D1742CA63DDC00628243 /* ViewController.swift in Sources */,
+				E9E6D1A02CA63F4300628243 /* PPRCardBattleVC.swift in Sources */,
+				E9E6D1702CA63DDB00628243 /* AppDelegate.swift in Sources */,
+				E9E6D1AE2CA6400B00628243 /* PPRGameVC.swift in Sources */,
+				E9E6D1722CA63DDC00628243 /* SceneDelegate.swift in Sources */,
+				E9E6D1A82CA63FBE00628243 /* PPRPrivacyVC.swift in Sources */,
+				E9E6D21E2CA67ECC00628243 /* PPRRoyReaManage.m in Sources */,
+				E9E6D1A42CA63F7300628243 /* PPRAboutUsVC.swift in Sources */,
+				E9E6D1AC2CA63FEF00628243 /* PPRExtesion.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9E6D17E2CA63DDF00628243 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E6D1872CA63DDF00628243 /* PokerRoyaleRivalsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9E6D1882CA63DDF00628243 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E6D1912CA63DDF00628243 /* PokerRoyaleRivalsUITests.swift in Sources */,
+				E9E6D1932CA63DE000628243 /* PokerRoyaleRivalsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9E6D1842CA63DDF00628243 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9E6D16B2CA63DDB00628243 /* PokerRoyaleRivals */;
+			targetProxy = E9E6D1832CA63DDF00628243 /* PBXContainerItemProxy */;
+		};
+		E9E6D18E2CA63DDF00628243 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9E6D16B2CA63DDB00628243 /* PokerRoyaleRivals */;
+			targetProxy = E9E6D18D2CA63DDF00628243 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9E6D1752CA63DDC00628243 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9E6D1762CA63DDC00628243 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9E6D17A2CA63DDF00628243 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9E6D17B2CA63DDF00628243 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9E6D1942CA63DE000628243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9E6D1952CA63DE000628243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9E6D1972CA63DE000628243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ECC1850353DA561525F2864 /* Pods-PokerRoyaleRivals.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PokerRoyaleRivals/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "YoNo Poker Royale Rivals";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "YoNo Poker Royale Rivals needs to obtain your device information for analysis and to bring you a unique gaming experience.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.sun.PokerRoyaleRivals;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "PokerRoyaleRivals/PokerRoyaleRivals-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E9E6D1982CA63DE000628243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57AD72C1706B4619F79245EC /* Pods-PokerRoyaleRivals.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PokerRoyaleRivals/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "YoNo Poker Royale Rivals";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "YoNo Poker Royale Rivals needs to obtain your device information for analysis and to bring you a unique gaming experience.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.sun.PokerRoyaleRivals;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "PokerRoyaleRivals/PokerRoyaleRivals-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E9E6D19A2CA63DE000628243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.sun.PokerRoyaleRivalsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokerRoyaleRivals.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PokerRoyaleRivals";
+			};
+			name = Debug;
+		};
+		E9E6D19B2CA63DE000628243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.sun.PokerRoyaleRivalsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokerRoyaleRivals.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PokerRoyaleRivals";
+			};
+			name = Release;
+		};
+		E9E6D19D2CA63DE000628243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.sun.PokerRoyaleRivalsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PokerRoyaleRivals;
+			};
+			name = Debug;
+		};
+		E9E6D19E2CA63DE000628243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.sun.PokerRoyaleRivalsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PokerRoyaleRivals;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9E6D1672CA63DDB00628243 /* Build configuration list for PBXProject "PokerRoyaleRivals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9E6D1942CA63DE000628243 /* Debug */,
+				E9E6D1952CA63DE000628243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9E6D1962CA63DE000628243 /* Build configuration list for PBXNativeTarget "PokerRoyaleRivals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9E6D1972CA63DE000628243 /* Debug */,
+				E9E6D1982CA63DE000628243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9E6D1992CA63DE000628243 /* Build configuration list for PBXNativeTarget "PokerRoyaleRivalsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9E6D19A2CA63DE000628243 /* Debug */,
+				E9E6D19B2CA63DE000628243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9E6D19C2CA63DE000628243 /* Build configuration list for PBXNativeTarget "PokerRoyaleRivalsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9E6D19D2CA63DE000628243 /* Debug */,
+				E9E6D19E2CA63DE000628243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9E6D1642CA63DDB00628243 /* Project object */;
+}
